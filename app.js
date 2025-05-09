@@ -14,7 +14,7 @@ server.keepAliveTimeout = 120 * 1000;
 server.headersTimeout = 120 * 1000;
 
 const scripts = [];
-for (let i = 0; i < 500; i++) {
+for (let i = 0; i < 6000; i++) {
   scripts.push(`<script src="/script${i}.js"></script>`);
 }
 
